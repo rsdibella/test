@@ -5,40 +5,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba practica</title>
+    <!-- Agregar links reset y main.style -->
 </head>
+
 <body>
-    <header>
-
+    <header 
+    class="header">
+        <a href="" class="logo">Portfolio_</a>
+        <div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#work"></a> Works</li>
+                    <li><a href="#Datos"></a> Datos</li>
+                    <li><a href="#How_we_met"></a> How we met?</li>
+                    <li><a href="#Try_something"></a> Try something!</li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
+
+    <!-- about me -->
     <main>
-        <form action="">
+        <div class="main-content">
+            <h1>ABOUT ME!</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae exercitationem, ipsam deleniti, excepturi
+                harum, minus sed veritatis debitis rerum labore distinctio? Amet soluta voluptatibus, eius neque magnam
+                repellendus blanditiis temporibus. </p>
+            </div>
+        </div>
+    </main>
+
+    <main>
+        <!--- skills -->
+    </main>
+
+    
+    <main class="form"> <!-- reach out? -->
+        <form action= "registro-completado.html">
             <fieldset>
-                <label for="">Nombre</label>
-                <input type="text">
-                <label for="">Apellidos</label>
-                <input type="text">
-                <label for="">Telefono</label>
-                <input type="text">
+                <legend> Leave your info! </legend>
+
+                <label for="name">Name</label>
+                <input 
+                    required
+                    id="name"
+                    name="name"
+                    placeholder="Add your name"
+                    type="text">
+
+                <label for="surname">Surname</label>
+                <input 
+                    required
+                    id="surname"
+                    name="surname"
+                    placeholder="Add your surname"
+                    type="text">
+
+                <label for="phone">Phone</label>
+                <input 
+                    required
+                    id="phone"
+                    name="phone"
+                    placeholder="Add your phone"
+                    type="text">
+
+                <label for="username">Github username</label>
+                <input 
+                    id="username"
+                    name="username"
+                    placeholder="@username"
+                    type="text"
+                    pattern="@[a-z]+" >
             </fieldset>
 
             <fieldset>
-                <label for="">como me conociste?</label>
-                <input type="radio" name="universidad" id=""/>        
-                <input type="radio" name="kc" id=""/>        
-                <input type="radio" name="school" id=""/>
-                <input type="radio" name="github" id=""/>
+                <legend> Where did we met?</legend>
 
-                <label for="">Indica tu tag de GitHub</label>
-                <input type=""> <!---Verificacion-->
+                <label for="uni">Uni</label>
+                <input 
+                    type="radio" 
+                    name="place" 
+                    id="uni"
+                    value="uni"/>  
+
+                <label for="keepcoding">Keepcoding School</label>
+                <input 
+                    type="radio" 
+                    name="place" 
+                    id="keepcoding"
+                    value="keepcodingschool"/>        
+
+                <label for="school">School</label>
+                <input  
+                    type="radio" 
+                    name="place" 
+                    id="school"
+                    value="school"/>
+
+                <label for="friends-in-common">Friends in common</label>
+                <input 
+                    type="radio" 
+                    name="place" 
+                    id="friends-in-common"
+                    value="friends-in-common"/>
+
             </fieldset>
 
             <fieldset>
-                <label for="bio">Describete</label>
+                <label for="msn">Message</label>
                 <textarea required id name="" id="" cols="30" rows="10"></textarea>
             </fieldset>
         </form>
-        
+
+            <fieldset>
+                <label for="vamos a contactar">Lets hangh!</label>
+                <input type="#">
+            </fieldset>
     </main>
 
 </body>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BE LIKE A WHALE</title> <!--CANVIAR NOM-->
+    <link rel= "stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header class="header">
+         <a href="" class="logo">Be like a whale!</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="#work">Porfolio</a></li>
+          <li><a href="#about">Skills</a></li>
+          <li><a href="#careers">Content</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="main-content">
+            <h1>ABOUT ME!</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae exercitationem, ipsam deleniti, excepturi
+                harum, minus sed veritatis debitis rerum labore distinctio? Amet soluta voluptatibus, eius neque magnam
+                repellendus blanditiis temporibus. </p>
+            </div>
+        </div>
+    </main>
+
+
+
+    <!--FORM-->
+    <div class="form">
+        <form action="registro-completado.html">
+            <div>
+                <label for="name">Name</label>
+                <input required id="name" name="name" type="text" placeholder="Complete your name" />
+            </div>
+            <div>
+                <label for="surname">Surname</label>
+                <input required id="surname" name="surname" type="text" placeholder="Complete your surname" />
+            </div>
+            <div>
+                <label for="telephone">Telephone</label>
+                <input required id="telephone" name="telephone" type="text" placeholder="Complete your telephone" />
+            </div>
+            <div>
+                <label for="username">Github username</label>
+                <input required id="username" name="username" type="text" placeholder="Use this format(@username)"
+                    pattern="@[a-z]+" />
+            </div>
+    
+            <fieldset>
+                <legend> Where did you meet me? </legend>
+    
+                <label for="uni">University</label>
+                <input id="uni" type="radio" name="place" value="uni">
+    
+                <label for="keep">Keepcoding kick off</label>
+                <input id="keep" type="radio" name="place" value="keep">
+    
+                <label for="cole">Escuela</label>
+                <input id="cole" type="radio" name="place" value="cole">
+    
+                <label for="git">Github</label>
+                <input id="git" type="radio" name="place" value="git">
+            </fieldset>
+    
+            <div>
+                <label for="info"> More information </label>
+                <textarea required id="info" name="info" type="text"
+                    placeholder="What else are you interested on?"></textarea>
+            </div>
+                <input type="submit" value="Send">
+        </form>
+
+    </div>
+    
+
+    <!--FOOTER. PIE DE PAGINA-->
+    <footer>
+        <a href="mailto:email@gmail.com"=>email@email.com</a>
+        <a href="telf"=>9999999999</a>
+    </footer>
+</body>
+
+</html>
+
+
+<!-- @([a-z][A-Z])+ CODIGO PATTERN -->
