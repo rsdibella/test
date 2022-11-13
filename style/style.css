@@ -1,0 +1,117 @@
+:root {
+    --primary-color: #4C4AE6;
+    font-size: 16px;
+}
+
+
+.conteiner{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+
+main{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align:justify;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    }
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    align-items: center;
+    width: calc(100% - 20px);
+    margin: 50px 10px 0 10px;
+    border-radius: 20px;
+    justify-content: center;
+    width: 100%;
+    }
+      
+a {
+    color: #000;
+    }
+
+.form {
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align:justify;
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+}
+
+.header {
+    background-color: rgb(126, 238, 221);
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    width: 100%;
+    z-index: 3;
+    position: fixed;
+    cursor: pointer;
+    align-self: flex-start;
+    padding: 10px;
+    line-height: 1;
+    width: 100%;
+
+
+}
+
+.nav-conteiner{
+    display: flex;
+    justify-content: center;
+}
+    
+footer {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    background-color: rgb(126, 238, 221);
+  }
+.main-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+  }
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+  }
+  
+.form-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+  /*RESPONSIVE RULES*/
+  @media only screen and (min-width: 450px) {
+    .image {
+      width: calc(50% - 10px);
+    }
+  }
+  
+  @media only screen and (min-width: 750px) {
+    .image {
+      width: calc(33.3% - 20px);
+    }
+  }

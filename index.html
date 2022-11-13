@@ -5,42 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba practica</title>
-    <!-- Agregar links reset y main.style -->
+    <link rel="stylesheet" href="/style/reset.css">
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 
 <body>
-    <header 
-    class="header">
-        <a href="" class="logo">Portfolio_</a>
-        <div>
-            <nav>
-                <ul class="menu">
-                    <li><a href="#work"></a> Works</li>
-                    <li><a href="#Datos"></a> Datos</li>
-                    <li><a href="#How_we_met"></a> How we met?</li>
-                    <li><a href="#Try_something"></a> Try something!</li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <!-- about me -->
-    <main>
-        <div class="main-content">
-            <h1>ABOUT ME!</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae exercitationem, ipsam deleniti, excepturi
-                harum, minus sed veritatis debitis rerum labore distinctio? Amet soluta voluptatibus, eius neque magnam
-                repellendus blanditiis temporibus. </p>
+    <!--NAV-->
+        <header
+        class="header">
+        <div class="nav-conteiner">
+            <a href="" class="logo">Portfolio_</a>
+            <div>
+                <nav class=" nav">
+                    <ul class="menu">
+                        <li><a href="#work"></a> Works</li>
+                        <li><a href="#Datos"></a> Datos</li>
+                        <li><a href="#How_we_met"></a> How we met?</li>
+                        <li><a href="#Try_something"></a> Try something!</li>
+                    </ul>
+                </nav>
             </div>
         </div>
-    </main>
+        </header>
 
-    <main>
-        <!--- skills -->
-    </main>
+    <!-- about me -->
+    <div>
+        <main>
+            <div class="main-conteiner">
+                <h1>ABOUT ME!</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae exercitationem, ipsam deleniti, excepturi
+                    harum, minus sed veritatis debitis rerum labore distinctio? Amet soluta voluptatibus, eius neque magnam
+                    repellendus blanditiis temporibus. </p>
+                </div>
+            </div>
+        </main>
+    </div>
 
-    
-    <main class="form"> <!-- reach out? -->
+<hr>
+
+<div class="form-container">
+    <main > 
+        <div>
         <form action= "registro-completado.html">
             <fieldset>
                 <legend> Leave your info! </legend>
@@ -75,7 +80,7 @@
                     name="username"
                     placeholder="@username"
                     type="text"
-                    pattern="@[a-z]+" >
+                    required pattern="@[a-z]+" >
             </fieldset>
 
             <fieldset>
@@ -121,7 +126,14 @@
                 <label for="vamos a contactar">Lets hangh!</label>
                 <input type="#">
             </fieldset>
-    </main>
+        </div>
+        </main>
 
+</div>
+
+        <footer>
+            <a href="mailto:email@gmail.com"=>email@email.com</a>
+            <a href="telf"=>9999999999</a>
+        </footer>
 </body>
 </html>
